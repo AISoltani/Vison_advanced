@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from skimage.util import img_as_float
 from skimage import transform
 from skimage import io
-
 from segmentation import *
 
 import os
