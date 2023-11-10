@@ -4,7 +4,6 @@ from skimage.feature import corner_peaks
 from skimage.util.shape import view_as_blocks
 from scipy.spatial.distance import cdist
 from scipy.ndimage.filters import convolve
-
 from utils import pad, unpad, get_output_space, warp_image
 
 
