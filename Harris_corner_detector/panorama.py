@@ -7,6 +7,7 @@ from scipy.ndimage.filters import convolve
 from utils import pad, unpad, get_output_space, warp_image
 
 def harris_corners(img, window_size=3, k=0.04):
+    
     """
     Compute Harris corner response map. Follow the math equation
     R=Det(M)-k(Trace(M)^2).
