@@ -3,7 +3,6 @@ import random
 from scipy.spatial.distance import squareform, pdist
 from skimage.util import img_as_float
 
-
 ### Clustering Methods
 def kmeans(features, k, num_iters=100):
     """ Use kmeans algorithm to group features into k clusters.
