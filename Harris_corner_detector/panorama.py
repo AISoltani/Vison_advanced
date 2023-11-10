@@ -63,7 +63,6 @@ def simple_descriptor(patch):
     ### END YOUR CODE
     return feature
 
-
 def describe_keypoints(image, keypoints, desc_func, patch_size=16):
     """
     Args:
