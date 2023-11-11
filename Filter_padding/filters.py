@@ -3,7 +3,6 @@
 import numpy as np
 
 
-
 def conv_nested(image, kernel):
 
     """A naive implementation of convolution filter.
