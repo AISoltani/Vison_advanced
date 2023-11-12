@@ -4,4 +4,3 @@ Algorithms for edge detection of various filters and scaling.
 
 
 
-
