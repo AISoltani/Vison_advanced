@@ -78,7 +78,7 @@ def kmeans_fast(features, k, num_iters=100):
 
     return assignments
 
-
+# Define hierarchical_clustering
 
 def hierarchical_clustering(features, k):
     """ Run the hierarchical agglomerative clustering algorithm.
