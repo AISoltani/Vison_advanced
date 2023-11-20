@@ -128,7 +128,6 @@ def hierarchical_clustering(features, k):
 
     return assignments
 
-
 ### Pixel-Level Features
 def color_features(img):
     """ Represents a pixel by its color.
