@@ -229,7 +229,6 @@ def evaluate_segmentation(mask_gt, segments):
             pixel (y, x) of the original image was part of the foreground.
         segments - An array of the same size as mask_gt. The value of a pixel
             indicates the segment it belongs.
-
     Returns:
         best_accuracy - Accuracy of the best performing segment.
             0 <= accuracy <= 1, where 1.0 indicates a perfect segmentation.
