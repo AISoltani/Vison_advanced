@@ -113,7 +113,6 @@ def hierarchical_clustering(features, k):
     """
 
 
-
     N, D = features.shape
 
     assert N >= k, 'Number of clusters cannot be greater than number of points'
