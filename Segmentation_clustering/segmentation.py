@@ -192,7 +192,6 @@ def my_features(img):
     ### END YOUR CODE
     return features
 
-
 ### Quantitative Evaluation
 def compute_accuracy(mask_gt, mask):
     """ Compute the pixel-wise accuracy of a foreground-background segmentation
