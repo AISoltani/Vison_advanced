@@ -69,7 +69,6 @@ def convert_to_grey_scale(image):
 
     return out
 
-
 def rgb_exclusion(image, channel):
     """Return image **excluding** the rgb channel specified
 
@@ -108,7 +107,6 @@ def lab_decomposition(image, channel):
     ### END YOUR CODE
 
     return out
-
 
 def hsv_decomposition(image, channel='H'):
     """Decomposes the image into HSV and only returns the channel specified.
