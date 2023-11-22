@@ -27,7 +27,6 @@ def load(image_path):
     out = out.astype(np.float64) / 255
     return out
 
-
 def dim_image(image):
     """Change the value of every pixel by following
 
@@ -49,7 +48,6 @@ def dim_image(image):
     ### END YOUR CODE
 
     return out
-
 
 def convert_to_grey_scale(image):
     """Change image to gray scale.
@@ -90,7 +88,6 @@ def rgb_exclusion(image, channel):
     ### END YOUR CODE
 
     return out
-
 
 def lab_decomposition(image, channel):
     """Decomposes the image into LAB and only returns the channel specified.
@@ -133,7 +130,6 @@ def hsv_decomposition(image, channel='H'):
 
     return out
 
-
 def mix_images(image1, image2, channel1, channel2):
     """Combines image1 and image2 by taking the left half of image1
     and the right half of image2. The final combination also excludes
@@ -158,7 +154,6 @@ def mix_images(image1, image2, channel1, channel2):
     ### END YOUR CODE
 
     return out
-
 
 def mix_quadrants(image):
     """THIS IS AN EXTRA CREDIT FUNCTION.
