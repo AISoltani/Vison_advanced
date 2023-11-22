@@ -3,7 +3,6 @@ import numpy as np
 from PIL import Image
 from skimage import color, io
 
-
 def load(image_path):
     """Loads an image from a file path.
 
