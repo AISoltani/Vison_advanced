@@ -22,3 +22,5 @@ Algorithm to identify corners and interest points for feature extraction in imag
 ## Clustering
 - Advanced clustering techniques like k-means, hierarchical clustering, and DBSCAN to group data points in images.
 # Requirements
+Python 3.6+
+Libraries: OpenCV, NumPy, Scikit-learn, Matplotlib
