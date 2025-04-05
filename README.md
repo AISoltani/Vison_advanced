@@ -16,3 +16,9 @@ Features
 - Customizable padding techniques for convolutional operations, ensuring boundary integrity.
 ## Harris Corner Detection
 Algorithm to identify corners and interest points for feature extraction in images.
+## Segmentation
+- Image segmentation tools, including watershed and region-growing algorithms.
+- Mask generation and visualization for medical and industrial applications.
+## Clustering
+- Advanced clustering techniques like k-means, hierarchical clustering, and DBSCAN to group data points in images.
+# Requirements
